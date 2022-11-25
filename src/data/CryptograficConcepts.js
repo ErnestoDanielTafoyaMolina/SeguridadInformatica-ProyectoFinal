@@ -1,3 +1,6 @@
+//añade aqui la informacion isabel
+//la definicion de lo que se pide 
+// y al menos 3 ejemplos
 export const concepts = [
     {   
         id:1,

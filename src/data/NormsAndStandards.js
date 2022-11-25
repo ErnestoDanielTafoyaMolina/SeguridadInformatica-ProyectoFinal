@@ -1,3 +1,5 @@
+//añade aqui la informacion isabel
+//la descripcion de lo que se pide 
 export const NormStandards = [
     {
         id:1,

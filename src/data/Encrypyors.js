@@ -1,4 +1,8 @@
 export const encryptors = [
+//añade aqui la informacion isabel
+//la definicion de lo que se pide 
+// busca al menos 3 mas
+// y añade el enlace ya sea para descarga o para visitar la pagina oficial
     {
         id:1,
         name:"Bitlocker",
