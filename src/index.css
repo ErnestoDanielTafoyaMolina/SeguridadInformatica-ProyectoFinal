@@ -1,7 +1,52 @@
 body{
-    background:#c0c0c0 ;
+    /* background-color: black; */
+    background:url("./img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
 }
 
 h2{
     text-align: center;
+
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(128, 0, 128,0.7);
+    box-shadow:
+    0 0 10px 3px #fff,  /* inner white */
+    /* 0 0 10px 6px #f0f, middle magenta */
+    0 0 20px 9px rgb(255, 100, 255); /* outer cyan */
+margin-top: 20px;
+text-shadow: 0 0 10px #fff;
+    
+}
+
+.card{
+    border: aqua 1px solid;
+    background-color: rgba(0, 90, 100,0.8 );
+    color:#fff;
+    border-radius: 10px;
+    box-shadow:
+        0 0 10px 3px #fff,  /* inner white */
+        /* 0 0 10px 6px #f0f, middle magenta */
+        0 0 20px 9px #0ff; /* outer cyan */
+    margin-top: 20px;
+    text-shadow: 0 0 10px purple;
+}
+.contenido{
+    border: #0ff 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 90, 100,0.5 );
+    box-shadow:
+    0 0 10px 3px #fff,  /* inner white */
+    /* 0 0 10px 6px #f0f, middle magenta */
+    0 0 20px 9px #0ff; /* outer cyan */
+margin-top: 20px;
+text-shadow: 0 0 10px purple;
+}
+a{  
+    color: chartreuse;
+    text-shadow: 0 0 10px rgb(81, 255, 0);
 }

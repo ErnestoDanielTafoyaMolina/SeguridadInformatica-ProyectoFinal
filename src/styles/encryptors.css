@@ -1,0 +1,39 @@
+h5{
+    text-align: center;
+
+}
+.encryptors{
+    justify-content: center;
+    justify-items: center;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    justify-content:space-evenly;
+    padding: 10px;
+    grid-gap:10px;
+}
+@media (max-width:930px){
+    .encryptors{
+        justify-content: center;
+        justify-items: center;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        justify-content:space-evenly;
+        padding: 10px;
+        grid-gap:10px;
+    }
+}
+
+@media (max-width:630px){
+    .encryptors{
+        justify-content: center;
+        justify-items: center;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        justify-content:space-evenly;
+        padding: 10px;
+        grid-gap:10px;
+    }
+}

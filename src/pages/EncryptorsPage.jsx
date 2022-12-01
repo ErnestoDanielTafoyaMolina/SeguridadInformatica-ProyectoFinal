@@ -1,18 +1,25 @@
+import { EncryptorsList } from '../components';
 import {  encryptors  } from '../data';
 
+
+import '../styles/encryptors.css'
 export const EncryptorsPage = () => {
   return (
     <>
         <h2>Aplicaciones de software cifrado</h2>
         <hr />
-        <p>A continuacion, algunos encriptadores que puedes encontrar en la web
-            para mantener tu información segura, los cuales son...
-        </p>
+        <div className="encryptors">
         {
-          encryptors.map(
-            encryptor => ( <li>{ encryptor.name }</li> )
+          encryptors.map( encryptor => 
+            <EncryptorsList 
+              key={ encryptor.id }
+              name={ encryptor.name }
+              description={ encryptor.description }
+              url={ encryptor.url }
+            />
           )
         }
+        </div>
     </>
   )
 }

@@ -11,7 +11,7 @@ export const CryptoConceptsList = ({
             <div className="card-title">{ name }</div>
             <div className="card-text">
                 <ul>
-                    <li><b>Significa:</b>{ description }</li>
+                    <li><b>Conciste en:</b>{ description }</li>
                     <li><b>Algunos ejemplos son:</b> { examples } </li>
                 </ul>
             </div>
