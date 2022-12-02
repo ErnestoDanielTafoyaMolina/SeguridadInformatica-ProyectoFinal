@@ -16,6 +16,7 @@ export const EncryptorsPage = () => {
               name={ encryptor.name }
               description={ encryptor.description }
               url={ encryptor.url }
+              img={ encryptor.img }
             />
           )
         }

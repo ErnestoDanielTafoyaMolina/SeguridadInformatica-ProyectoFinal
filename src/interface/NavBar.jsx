@@ -30,12 +30,6 @@ export const Navbar = () => {
                         Deslinde de Responsabilidad legal para uso de software
                     </NavLink>
 
-                    <NavLink 
-                        className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
-                        to="/encryptors"
-                    >
-                        Encriptadores
-                    </NavLink>
 
                     <NavLink 
                         className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
@@ -50,6 +44,14 @@ export const Navbar = () => {
                     >
                         Conceptos de criptografía
                     </NavLink>
+
+                    <NavLink 
+                        className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
+                        to="/encryptors"
+                    >
+                        Aplicaciones de software de cifrado
+                    </NavLink>
+
 
                     <NavLink 
                         className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
