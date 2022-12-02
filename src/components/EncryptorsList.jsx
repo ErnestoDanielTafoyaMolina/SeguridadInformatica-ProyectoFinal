@@ -13,7 +13,7 @@ export const EncryptorsList = ({
       <div className="card" style={{width: "20rem"}} >
         <div className="card-body">
           <h5 className="card-title">{ name }</h5>
-          <img src={ img } class="card-img-top" alt="..."></img>
+          <img src={ img } className="card-img-top" alt="..."></img>
           <p className="card-text">
             <b>¿Qué es?</b>
             <br />
